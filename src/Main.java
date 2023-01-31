@@ -3,8 +3,8 @@ import java.awt.*;
 public class Main {
 
     static final int CELL_WIDTH = 50;
-    static final int GAME_WIDTH = 1000;
-    static final int GAME_HEIGHT = 500;
+    static final int GAME_WIDTH = 1280;
+    static final int GAME_HEIGHT = 720;
     
     static final Dimension SCREEN_SIZE = new Dimension(GAME_WIDTH, GAME_HEIGHT);
     static final setup game = new setup();
