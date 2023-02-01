@@ -15,13 +15,17 @@ public class Options {
     }
         
 
-/*
+
 <USE A LISTENER TO CHECK FOR A SPECIFIC KEY PRESS, PROBABLY P, I DO NOT KNOW HOW TO DO THAT THOUGH>
 while (gamePaused == true) {
-        
+        JButton button = new JButton("Sound");
+        button.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                button.setText("Sound off");
+                Music.play(1);
+            }
         
 }
-*/
 }
 
 
